@@ -16,6 +16,16 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    func downloadBooks(bookTitle: String){
+        let path = "https://www.googleapis.com/books/v1/volumes?q=\(bookTitle)"
+        let url = URL(string: path)
+        let session = URLSession.shared.dataTask(with: url)
+        
+        let task = session.dataTast(with:url!) {(data, response, error) in }
+        
+        task.resume()
+    }
 }
 
 extension ViewController: UITableViewDataSource {
@@ -24,7 +34,10 @@ extension ViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "BookCell", for: indexPath)
+        
+        //configure cell
+        
         
         return cell;
     }
