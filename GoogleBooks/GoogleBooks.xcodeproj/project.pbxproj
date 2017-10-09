@@ -12,6 +12,8 @@
 		1C8F608A1F8B565F005209F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C8F60881F8B565F005209F9 /* Main.storyboard */; };
 		1C8F608C1F8B565F005209F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C8F608B1F8B565F005209F9 /* Assets.xcassets */; };
 		1C8F608F1F8B565F005209F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C8F608D1F8B565F005209F9 /* LaunchScreen.storyboard */; };
+		856152BF1F8B817100BB8145 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856152BE1F8B817100BB8145 /* Book.swift */; };
+		856152C11F8B834F00BB8145 /* BookItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856152C01F8B834F00BB8145 /* BookItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1C8F608B1F8B565F005209F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C8F608E1F8B565F005209F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C8F60901F8B565F005209F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		856152BE1F8B817100BB8145 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		856152C01F8B834F00BB8145 /* BookItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookItemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				1C8F60841F8B565F005209F9 /* AppDelegate.swift */,
 				1C8F60861F8B565F005209F9 /* ViewController.swift */,
 				1C8F60881F8B565F005209F9 /* Main.storyboard */,
+				856152BE1F8B817100BB8145 /* Book.swift */,
+				856152C01F8B834F00BB8145 /* BookItemTableViewCell.swift */,
 				1C8F608B1F8B565F005209F9 /* Assets.xcassets */,
 				1C8F608D1F8B565F005209F9 /* LaunchScreen.storyboard */,
 				1C8F60901F8B565F005209F9 /* Info.plist */,
@@ -138,6 +144,8 @@
 			files = (
 				1C8F60871F8B565F005209F9 /* ViewController.swift in Sources */,
 				1C8F60851F8B565F005209F9 /* AppDelegate.swift in Sources */,
+				856152BF1F8B817100BB8145 /* Book.swift in Sources */,
+				856152C11F8B834F00BB8145 /* BookItemTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +309,7 @@
 				1C8F60951F8B565F005209F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
